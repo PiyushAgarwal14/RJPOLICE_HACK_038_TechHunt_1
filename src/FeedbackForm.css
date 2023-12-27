@@ -1,0 +1,114 @@
+body{
+    /* background-color: aliceblue; */
+    background: linear-gradient(69.5deg, rgb(251, 0, 0) -0.5%, rgb(3, 10, 252) 97.4%);
+
+}
+.pfs_heading{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+.container-center {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin-bottom: 2rem;
+  }
+
+  .row{
+    background-color: white;
+    border: solid 2px black;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  
+  /* Bootstrap classes for form fields and buttons */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    display: block; /* Ensures labels are displayed on a new line */
+  margin-bottom: 0.5rem; 
+  }
+
+  .form-control{
+    width: 500px;
+    height: 4vh;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Customize button color */
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Customize button hover color */
+    border-color: #0056b3;
+  }
+  
+  .btn-primary{
+    width: 15rem;
+    height: 6vh;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+    margin-left: 8rem;
+  }
+
+
+  .modal {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 3rem;
+  }
+
+  .thank_text{
+    color: green;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .cl_bt_custom{
+    width: 15rem;
+    height: 5vh;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  .modal-content {
+    padding: 20px; /* Add padding to the modal content */
+    text-align: center;
+  }
+  
+  .modal-header {
+    justify-content: center; /* Center-align the header content in the modal */
+  }
+
+  
+  .modal-body {
+    text-align: center; /* Center-align the text in the modal body */
+  }
+  
+  .modal-footer {
+    justify-content: center; /* Center-align the buttons in the modal footer */
+  }
+
+  @media only screen and (max-width: 600px) {
+    .form-control{
+        width: 100%;
+    }
+
+    .btn-primary{
+        margin-left: 0px;
+    }
+  }
+  
