@@ -47,7 +47,7 @@ const FeedbackForm = () => {
     e.preventDefault();
 
     // Save data to Google Apps Script web app
-    const scriptUrl = 'https://script.google.com/macros/s/AKfycbzI_WfUZ2eGMwa-NgH7c6sRA0dbyVDP8jxK3VFx0U0Ry-016RNeAnJ3wadxn18ZE8cF/exec';
+    const scriptUrl = 'Your_APP_Script_ID';
 
     const scriptData = new FormData();
     for (const key in formData) {
